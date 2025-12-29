@@ -1,4 +1,5 @@
-//Clean up raw form submission data from Tally
+//Used in node 1) Clean Up Form Submission
+//Cleans and standardizes the form submission data to ensure consistent formatting for various input types
 const rawSubmission = $("Tally Forms Webhook").first();
 
 //Grab fields to target form responses
